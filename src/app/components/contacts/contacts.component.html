@@ -1,0 +1,8 @@
+<div class="container">
+    <mat-list>
+        <a routerLink="/Contacts/{{ utente.id }}" *ngFor="let utente of persone">{{ utente.firstName }} {{ utente.lastName }}</a>
+    </mat-list>
+    
+    <router-outlet></router-outlet>
+    <mat-divider></mat-divider>
+</div>

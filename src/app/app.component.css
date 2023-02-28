@@ -1,0 +1,35 @@
+
+#backImageHome{
+    z-index: -99;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://i.pinimg.com/originals/e6/aa/81/e6aa817adf90a32a3be9fbc18f24e4fa.jpg");
+    background-size: cover;
+}
+
+
+header {
+    z-index: 99;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(0deg, rgba(2,0,6,1) 15%, rgba(255,255,255,0) 100%);
+}
+
+a {
+    text-align: center;
+    width: calc(100% / 3);
+    text-decoration: none;
+    color: white;
+    border-bottom: solid 3px white;
+    transition: all 0.8s ease;
+}
+
+a:hover {
+    border-bottom: 3px solid cornflowerblue;
+    color: cornflowerblue;
+}

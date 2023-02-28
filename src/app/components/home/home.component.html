@@ -1,0 +1,15 @@
+<div class="container">
+  <form #formHome="ngForm" (ngSubmit)="onSubmit(formHome)">
+    <h2>Form Home</h2>
+    <input type="text" name="firstName" ngModel required placeholder="Nome">
+    <input type="text" name="lastName" ngModel required placeholder="Cognome">
+    <input type="email" name="email" ngModel required email placeholder="Email">
+    <input type="text" name="password" ngModel required placeholder="Password">
+    <input type="text" name="urlFoto" ngModel required placeholder="Url Foto">
+    <input type="text" name="age" ngModel required placeholder="Età">
+    <input type="text" name="residence" ngModel required placeholder="Residenza">
+    <button type="submit" [disabled]="!formHome.valid">Submit</button> 
+  </form>
+</div>
+
+  

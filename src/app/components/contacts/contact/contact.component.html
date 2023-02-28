@@ -1,0 +1,18 @@
+<mat-card class="example-card">
+    <mat-card-header>
+      <img mat-card-avatar src= "{{ persona.urlFoto }}">
+      <mat-card-title>{{ persona.firstName }}</mat-card-title>
+      <mat-card-subtitle>{{ persona.lastName }}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src= "{{ persona.urlFoto }}">
+    <mat-card-content>
+      <p>
+        Ciao sono {{ persona.firstName }}, ho {{ persona.age }} anni e sono di {{ persona.residence }}
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button id="likeBtn" mat-button>LIKE</button>
+      <button id="deleteBtn" mat-button (click)="deleteUser(persona.id)">DELETE</button>
+    </mat-card-actions>
+  </mat-card>
+  

@@ -1,0 +1,54 @@
+.mat-mdc-card{
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  border: solid 3px white;
+  border-radius: 24px;
+}
+
+.mat-mdc-card-subtitle{
+  color: white;
+}
+
+
+
+.example-card {
+  max-width: 400px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+  
+.example-header-image {
+  background-size: cover;
+}
+
+button {
+  margin-right: 14px;
+  background-color: white;
+  padding: 8px;
+  border-radius: 12px;
+  border: solid 0px black;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+#deleteBtn{
+  color: white;
+  border: solid 2px white;
+  background-color: rgba(220, 20, 60, 0.3);
+}
+
+#likeBtn{
+  color: white;
+  border: solid 2px white;
+  background-color: rgba(100, 149, 237,0.5);
+}
+
+.mat-mdc-card-image {
+  border-bottom: solid 3px white;
+  border-top: solid 3px white;
+}
+
+.mat-mdc-card-avatar {
+  border: solid 3px white;
+}
